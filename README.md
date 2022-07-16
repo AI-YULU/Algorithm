@@ -1,3 +1,3 @@
 # Algorithm
 # kalman filter
-![alt](picture/kalman_filter.png kalman_filter)
+![kalman_filter](picture/kalman_filter.png kalman_filter)

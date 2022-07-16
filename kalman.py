@@ -26,7 +26,9 @@ for i in range(len(v)):
     v_kalman[i] = x
     gain[i] = g
 print(v_kalman)
-plt.plot(v,"--")
-plt.plot(v_kalman)
+plt.title("Kalman Filter")
+plt.plot(v,"--", label = "raw data")
+plt.plot(v_kalman, label = "filtered data")
+plt.legend()
 plt.show()
 
